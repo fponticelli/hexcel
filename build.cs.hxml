@@ -1,0 +1,16 @@
+-cp src
+-cp demo
+-cs bin/cs
+-main Main
+
+-net-lib assets/dll/Microsoft.Office.Tools.Excel.dll
+-net-lib assets/dll/System.Drawing.dll@std
+-net-lib assets/dll/Microsoft.Office.Tools.dll
+-net-lib assets/dll/System.Windows.Forms.dll@std
+-net-lib assets/dll/Accessibility.dll@std
+-net-lib assets/dll/Microsoft.Office.Tools.Common.dll
+-net-lib assets/dll/Microsoft.Office.Interop.Excel.dll
+-net-lib assets/dll/OFFICE.DLL
+-net-lib assets/dll/Microsoft.Vbe.Interop.dll
+-net-lib assets/dll/stdole.dll
+-D net_ver=40

@@ -1,0 +1,5 @@
+-cp src
+-cp demo
+-cp externs
+-python bin/main.py
+-main Main

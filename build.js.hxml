@@ -1,0 +1,5 @@
+-cp src
+-cp demo
+-cp externs
+-js bin/www/main.js
+-main Main
