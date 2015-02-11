@@ -5,9 +5,9 @@ using thx.core.Arrays;
 class Main {
   public static function main() {
     var excel = Excel.create(),
-      wb = excel.addWorkbook(),
-      ws = wb.get(0),
-      values = [99.99, 1.11, 4.25, 98.83, 11.48, 14.58, 23.85, 85.33, 61.92, 53.74];
+        wb = excel.addWorkbook(),
+        ws = wb.get(0),
+        values = [99.99, 1.11, 4.25, 98.83, 11.48, 14.58, 23.85, 85.33, 61.92, 53.74];
 
     values.plucki(ws.cellAt(i, 0).setNumber(_));
     ws.cellAt(values.length + 1, 0).setFormula('=VAR.P(A1:A${values.length})');
