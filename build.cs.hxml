@@ -1,6 +1,7 @@
 -cp src
 -cp demo
 -cs bin/cs
+-lib thx.core
 -main Main
 
 -net-lib assets/dll/Microsoft.Office.Tools.Excel.dll

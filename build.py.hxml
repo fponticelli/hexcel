@@ -1,5 +1,6 @@
 -cp src
 -cp demo
 -cp externs
+-lib thx.core
 -python bin/main.py
 -main Main
