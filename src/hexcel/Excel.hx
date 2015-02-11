@@ -12,7 +12,7 @@ abstract Excel(Application) from Application to Application {
   }
 
   public inline function addWorkbook() : ExcelWorkbook {
-    return (this.Workbooks.Add(XlWBATemplate.xlWBATWorksheet) : ExcelWorkbook);
+    return (this.Workbooks.Add(microsoft.office.interop.excel.XlWBATemplate.xlWBATWorksheet) : ExcelWorkbook);
   }
 
   static function getNative() : Application {
