@@ -1,6 +1,6 @@
 import hexcel.*;
 
-using thx.core.Arrays;
+using thx.Arrays;
 
 class Main {
   public static function main() {
