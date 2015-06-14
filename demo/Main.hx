@@ -1,6 +1,7 @@
 import hexcel.*;
 
 using thx.Arrays;
+using thx.Functions;
 
 class Main {
   public static function main() {
@@ -9,7 +10,7 @@ class Main {
         ws = wb.get(0),
         values = [99.99, 1.11, 4.25, 98.83, 11.48, 14.58, 23.85, 85.33, 61.92, 53.74];
 
-    values.plucki(ws.cellAt(i, 0).setNumber(_));
+    values.mapi.fn(ws.cellAt(_1, 0).setNumber(_0));
     ws.cellAt(values.length + 1, 0).setFormula('=VAR.P(A1:A${values.length})');
 
     var range = ws.rangeAt(0, 0, values.length - 1, 0);
